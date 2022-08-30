@@ -1,0 +1,22 @@
+###
+## P5.3
+#
+
+def firstDigit(n):
+    m = str(n)
+    return m[0]
+
+def lastDigit(n):
+    m = str(n)
+    l = len(m)
+    return m[l-1]
+
+def digits(n):
+    m = str(n)
+    return len(m)
+
+digit = int(input(print("Enter the number ")))
+
+print("The first digit of the number is ", firstDigit(digit))
+print("The last digit of the number is ", lastDigit(digit))
+print("The number of digits in the number is ", digits(digit))
