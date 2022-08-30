@@ -1,0 +1,30 @@
+###
+## P5.2
+#
+
+def allTheSame(x,y,z):
+    if x==y==z:
+        return "True"
+    else:
+        return "False"
+
+
+def allDifferent(x,y,z):
+    if x!=y!=z!=x:
+        return "True"
+    else:
+        return "False"
+
+def sorted(x,y,z):
+    if x<=y<=z:
+        return "True"
+    else:
+        return "False"
+
+a = int(input(print("Enter the number")))
+b = int(input(print("Enter the number")))
+c = int(input(print("Enter the number")))
+
+print("The numbers all the same. ", allTheSame(a,b,c))
+print("The numbers all different. ", allDifferent(a,b,c))
+print("The numbers are arranged in assending order. ", sorted(a,b,c))
