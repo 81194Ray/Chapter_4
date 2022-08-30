@@ -1,0 +1,12 @@
+largestNumber = int(input("Enter a number "))
+code = "Y";
+while code == "Y":
+    smallestNumber = int(input("Enter a number "))
+    if largestNumber < smallestNumber:
+        largestNumber = smallestNumber
+    if smallestNumber > largestNumber:
+        smallestNumber = largestNumber
+    code = input("To conitinue enter Y or N to terminate: ")
+
+print("The largest number is ", largestNumber)
+print("The smallest number is ", smallestNumber)
